@@ -16,9 +16,13 @@ int total= (Integer) request.getAttribute("5");
 
 
 out.println(id);
+out.println("</br>");
 out.println(username);
+out.println("</br>");
 out.println(basicpay);
+out.println("</br>");
 out.println(workedhr);
+out.println("</br>");
 out.println(total);
 
 %>
